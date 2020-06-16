@@ -1,0 +1,495 @@
+body {
+	font-family: sans-serif;
+	background-color: #f8e0f1;
+}
+.file-upload {
+	padding: 15% 3%;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: solid 1.5px #f6f7fa;
+	background-color: #f6f7fa;
+}
+.file-upload-btn {
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	background: #1fb264;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #15824b;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.file-upload-btn:hover {
+	background: #1aa059;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.file-upload-btn:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+.file-upload-content {
+	display: none;
+	text-align: center;
+}
+.file-upload-input {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	opacity: 0;
+	cursor: pointer;
+}
+.image-upload-wrap {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	object-fit: contain;
+	border-radius: 10px;
+	border: dashed 1.5px #35465d;
+	background-color: #ffffff;
+}
+.image-dropping,
+.image-upload-wrap:hover {
+	background-color: #35465d;
+	border: 4px dashed #ffffff;
+}
+.image-title-wrap {
+	padding: 0 15px 15px 15px;
+	color: #222;
+}
+.drag-text {
+	text-align: center;
+}
+.drag-text h3 {
+	font-weight: 100;
+	text-transform: uppercase;
+	color: #15824b;
+	padding: 60px 0;
+	font-size: 2rem;
+}
+.file-upload-image {
+	max-height: 60%;
+	max-width: 60%;
+	margin: auto;
+	padding: 10px;
+}
+
+.try-again-btn {
+	border-radius: 40px;
+	border: solid 1.5px #35465d;
+	background-color: #35465d;
+}
+
+.try-again-text {
+	display: block;
+	font-size: 1.5rem;
+	text-align: center;
+	color: #ffffff;
+	padding: 4px 15px;
+}
+.remove-image {
+	width: 200px;
+	margin: 0;
+	color: #fff;
+	background: #cd4535;
+	border: none;
+	padding: 10px;
+	border-radius: 4px;
+	border-bottom: 4px solid #b02818;
+	transition: all 0.2s ease;
+	outline: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.remove-image:hover {
+	background: #c13b2a;
+	color: #ffffff;
+	transition: all 0.2s ease;
+	cursor: pointer;
+}
+.remove-image:active {
+	border: 0;
+	transition: all 0.2s ease;
+}
+.nav-distance {
+	padding: 2.1% 7.7%;
+	background-color: #ece0f8;
+}
+.nav-distance .navbar-brand {
+	font-size: 1.24rem;
+	background-color: #ece0f8;
+	font-family: 'Nanum Pen Script', cursive;
+}
+.section {
+	margin-top: 100px;
+}
+
+.title {
+	font-family: 'Nanum Pen Script', cursive;
+	line-height: 1.67;
+	text-align: center;
+	color: #35465d;
+}
+.subtitle {
+	font-family: 'Nanum Pen Script', cursive;
+	line-height: 1.67;
+	text-align: center;
+	color: #35465d;
+}
+@media screen and (max-width: 600px) {
+	html {
+		font-size: 10px;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+.blog-link {
+	margin-top: 5px;
+	font-family: NanumSquareR;
+	font-size: 1.5rem;
+	line-height: 1.71;
+	text-align: center;
+	color: #f73737;
+	text-decoration: underline;
+}
+.blog-link:hover {
+	font-family: NanumSquareR;
+	font-size: 1.5rem;
+	line-height: 1.71;
+	text-align: center;
+	color: #f73737;
+	text-decoration: underline;
+}
+.file-upload {
+	width: 914px;
+	height: 50vw;
+	border-radius: 10px;
+	border: solid 1.5px #f6f7fa;
+	background-color: #f6f7fa;
+}
+
+.footer {
+	background-color: initial;
+	color: initial;
+}
+
+.bar-container {
+	height: 2.7rem;
+}
+
+.닥스훈트-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.닥스훈트-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.요크셔테리아-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
+}
+
+.요크셔테리아-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
+}
+
+.토이푸들-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 176, 59, 0.2);
+}
+
+.토이푸들-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 176, 59, 1);
+}
+
+.치와와-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
+}
+
+.치와와-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
+}
+
+.시츄-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
+}
+
+.시츄-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
+}
+
+.보더콜리-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 176, 59, 0.2);
+}
+
+.보더콜리-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 176, 59, 1);
+}
+
+.웰시코기-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
+}
+
+.웰시코기-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
+}
+
+.골든.리트리버-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(235, 166, 190, 0.2);
+}
+
+.골든.리트리버-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(235, 166, 190, 1);
+}
+
+.불독-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.불독-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.푸들-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
+}
+
+.푸들-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
+}
+
+.시베리안.허스키-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.시베리안.허스키-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.말티즈-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 175, 234, 0.2);
+}
+
+.말티즈-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 175, 234, 1);
+}
+
+.진돗개-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.진돗개-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.래브라도.리트리버-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.래브라도.리트리버-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.포메라니아-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.포메라니아-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.비숑프라제-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	width: 100%;
+	background-color: rgba(117, 204, 84, 0.2);
+}
+
+.비숑프라제-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 2rem;
+	border-radius: 10px;
+	background-color: rgba(117, 204, 84, 1);
+}
+
+.at-share-btn-elements {
+	margin-top: 5px;
+}
